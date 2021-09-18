@@ -20,12 +20,12 @@ showMore.addEventListener("click", (e) => {
 
       showMore.classList.add("less")
       speakersContainer.style.maxHeight = "unset"
-      showMore.innerText = "Show less"
+      showMore.innerText = "Show Less"
       
     } else {
       showMore.classList.remove("less")
       speakersContainer.style = ""
-      showMore.innerText = "Show more"
+      showMore.innerText = "Show More"
     } 
 })
 closeHamburger.addEventListener("click", closeHamburgerEvent)
