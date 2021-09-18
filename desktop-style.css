@@ -5,6 +5,11 @@
     font-family: 'Lato', sans-serif;
   }
 
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+
 @media (min-width: 769px) {
     .disapeer {
       display: none;
@@ -166,7 +171,6 @@
     background-color: #131313;
     background-size: 20px 20px;
     width: 100%;
-    height: 100%;
   }
 
   .main {
@@ -190,16 +194,28 @@
   }
 
   .atractions {
+    justify-content: center;
     border: 3px solid gold;
     display: flex;
     flex-direction: column;
-    width: 10%;
+    margin-right: 10px;
+  }
+
+  .atractions img {
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-self: center;
   }
 
   .row {
+    border: 3px solid white;
     display: flex;
-    width: 100%;
+    margin: 0 auto;
+    width: 60%;
+    height: auto;
     justify-content: center;
+    align-self: center;
   }
 
   .red-title {
@@ -226,4 +242,76 @@
     font-weight: bold;
   }
 
+  .speakers {
+    width: 100%;
+    display: flex;
+    border: 5px solid orangered
+  }
+
+  .speaker-title {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    border: 3px solid gold; 
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+  }
+
+  .speakers img {
+    width: 100px;
+    height: 100px;
+  }
+
+  /*.people-info {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: 1px solid black;
+    margin-left: 15px;
+  }*/
+
+  /*.cards {
+    display: flex;
+    margin: 0 auto;
+    width: 50%;
+    margin-bottom: 20px;
+    border: 2px solid red;
+  }*/
+
+  .italic {
+    font-style: italic;
+    display: flex;
+  }
+
+  .column1 {
+    width: 30%;
+    display: flex;
+    flex-direction: ;
+    border: 2px solid rgb(62, 105, 62)
+  }
+
+  .column2 {
+    width: 20%;
+    display: flex;
+    border: 2px solid rgba(0, 0, 255, 0.945);
+  }
+
+  .red-subtitle {
+    font-size: 12px;
+    width: 100%;
+    display: flex;
+    color: #ec5242;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  .patrocinadores {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    margin-right: 50px;
+  }
 } 
