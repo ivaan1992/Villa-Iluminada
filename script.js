@@ -32,3 +32,12 @@ closeHamburger.addEventListener("click", closeHamburgerEvent)
 
 document.querySelector("#hamburger-menu").addEventListener("click", closeHamburgerEvent);
 
+//links 
+
+const link = document.querySelectorAll('.link');
+
+menuLinks.forEach(
+  (menuLink) => {
+    menuLink.addEventListener('click', toggleMenu);
+  },
+);

@@ -24,6 +24,19 @@
     display: none;
   }
 
+  .link {
+    display: inline;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+  }
+
+  .link:hover {
+    text-decoration: underline;
+  }
+
+
   .menu-section {
     position: fixed;
     background: rgba(0, 0, 0, 0.6);
