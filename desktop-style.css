@@ -1,9 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
 
 .flex-center {
   align-items: center;
@@ -11,44 +11,64 @@
 }
 
 @media (min-width: 769px) {
-    .disapeer {
-      display: none;
-    }
-  
+  .disapeer {
+    display: none;
+  }
+
   header {
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      height: 150px;
-      background: #3e3e3e;
-      margin: 0 auto;
-    }
-  
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 150px;
+    background: #3e3e3e;
+    margin: 0 auto;
+  }
+
   .content {
     width: 85%;
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    
-    }
-  
+  }
+
   .black-menu {
     width: 100%;
     height: 50px;
     display: flex;
     justify-content: flex-end;
   }
-  
-  .black-menu li{
+
+  .black-menu li {
     list-style-type: none;
     padding: 8px;
   }
-  
+
   .black-menu a {
     color: white;
     text-decoration: none;
   }
-  
+
+  .menu a {
+    color: #333;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+  }
+
+  .cc a {
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    border: 5px solid #ec5242;
+    color: #ec5242;
+  }
+
+  .program a {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+  }
+
   .black-menu a:hover {
     font-weight: bold;
   }
@@ -61,9 +81,8 @@
     flex-direction: column;
     margin: 0 auto;
     background-color: white;
-
   }
-  
+
   .menu {
     display: flex;
     border: 4px solid red;
@@ -83,13 +102,6 @@
     font-weight: bold;
   }
 
-  .menu a {
-    color: #333;
-    display: flex;
-    flex-direction: row;
-    text-decoration: none;
-  }
-
   .menu ul {
     list-style-type: none;
     display: flex;
@@ -98,14 +110,6 @@
   .menu li {
     padding: 15px;
     justify-content: center;
-  }
-
-  .cc a {
-    text-align: center;
-    width: 100%;
-    height: 50px;  
-    border: 5px solid #ec5242;
-    color: #ec5242;  
   }
 
   .headline {
@@ -129,15 +133,15 @@
   }
 
   .small-title {
-    color:#f14323;
+    color: #f14323;
     margin-bottom: 10px;
-    font-size: 20px; 
+    font-size: 20px;
   }
 
   .big-title {
-   color: #ec5242;
-   margin-bottom: 30px;
-   font-size: 50px;
+    color: #ec5242;
+    margin-bottom: 30px;
+    font-size: 50px;
   }
 
   .paragraph {
@@ -154,7 +158,7 @@
     color: #4f4f4f;
     font-weight: bold;
     font-size: 20px;
-    margin-bottom: 15px; 
+    margin-bottom: 15px;
   }
 
   .program {
@@ -162,12 +166,12 @@
     flex-direction: column;
     margin: 0 auto;
     background:
-    linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
-    linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
-    linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
-    linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
-    linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
-    linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+      linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+      linear-gradient(207deg, #151515 5px, transparent 5px) 10px,
+      linear-gradient(27deg, #222 5px, transparent 5px)  10px,
+      linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+      linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+      linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
     background-color: #131313;
     background-size: 20px 20px;
     width: 100%;
@@ -177,7 +181,7 @@
     text-align: center;
     color: white;
     font-weight: bold;
-    border: 3px solid gold; 
+    border: 3px solid gold;
     width: 100%;
     height: 50px;
     margin-top: 20px;
@@ -236,48 +240,41 @@
     font-weight: bold;
   }
 
-  .program a {
-    color: #fff;
-    text-align: center;
-    font-weight: bold;
+  .speakers {
+    display: flex;
+    width: 100%;
   }
 
-  .speakers {
-    width: 100%;
-    display: flex;
-    border: 5px solid orangered
+  .speakers img {
+    width: 200px;
+    height: 200px;
   }
 
   .speaker-title {
     text-align: center;
     color: black;
     font-weight: bold;
-    border: 3px solid gold; 
+    border: 3px solid gold;
     width: 100%;
     height: 50px;
     margin-top: 20px;
   }
 
-  .speakers img {
-    width: 100px;
-    height: 100px;
-  }
-
-  /*.people-info {
+  .people-info {
     display: flex;
     flex-direction: column;
     width: 50%;
     border: 1px solid black;
     margin-left: 15px;
-  }*/
+  }
 
-  /*.cards {
+  .cards {
     display: flex;
     margin: 0 auto;
     width: 50%;
     margin-bottom: 20px;
     border: 2px solid red;
-  }*/
+  }
 
   .italic {
     font-style: italic;
@@ -287,20 +284,18 @@
   .column1 {
     width: 30%;
     display: flex;
-    flex-direction: ;
-    border: 2px solid rgb(62, 105, 62)
+    flex-direction: column;
+    border: 2px solid rgb(62, 105, 62);
   }
 
   .column2 {
-    width: 20%;
+    width: 50%;
     display: flex;
     border: 2px solid rgba(0, 0, 255, 0.945);
   }
 
   .red-subtitle {
     font-size: 12px;
-    width: 100%;
-    display: flex;
     color: #ec5242;
     font-weight: bold;
     margin-top: 10px;
@@ -314,4 +309,4 @@
     justify-content: center;
     margin-right: 50px;
   }
-} 
+}
