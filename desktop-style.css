@@ -21,6 +21,7 @@
     height: 150px;
     background: #3e3e3e;
     margin: 0 auto;
+
   }
 
   .content {
@@ -34,7 +35,11 @@
     width: 100%;
     height: 50px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: flex-start;
+    border: 5px solid red;
+    padding-left: 350px;
+
   }
 
   .black-menu li {
@@ -52,6 +57,7 @@
     display: flex;
     flex-direction: row;
     text-decoration: none;
+    margin-right: 50px;
   }
 
   .cc a {
@@ -87,15 +93,17 @@
   .menu {
     display: flex;
     height: 70px;
-    width: auto;
+    width: 100%;
     margin: 0 auto;
     background-color: white;
-    justify-content: center;
+    justify-content: flex-end;
+    border-bottom: 1px solid gray;
+    padding-right: 455px;
   }
 
   .menu-section {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
   }
 
   .menu-section a:hover {
