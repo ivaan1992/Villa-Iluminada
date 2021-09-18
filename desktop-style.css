@@ -270,6 +270,18 @@
     margin-bottom: 20px;
   }
 
+  .cards-container {
+    display: flex;
+    -ms-flex-direction: row;
+    width: 100%;
+    max-width: 0 auto;
+  }
+
+  .column {
+    width: 30%;
+    margin: 0 auto;
+  }
+
   .italic {
     font-style: italic;
     display: flex;
