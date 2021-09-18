@@ -1,4 +1,15 @@
-
+.close {
+    color: green;
+    font-size: 3rem !important;
+    cursor: pointer;
+    user-select: none;
+    position: absolute;
+    top: 1rem;
+    right: 0;;
+}
+.menu {
+    position: relative;
+}
 @media (max-width: 768px) {
     .hide { 
     display: none;
@@ -23,7 +34,6 @@
         margin-left: 10px;
         text-decoration: none;
         color: #fff;
-        background: #3e3e3e;
         font-size: 20px;
     }
 
@@ -36,7 +46,7 @@
     }
 
     #hamburger-menu {
-        position: fixed;
+        
         padding: 0.5em 1em;
         top: 1.5rem;
         border: none;
@@ -165,13 +175,14 @@
     }
 
     .register {
-        border: 2px solid red;
+       border: none;
         justify-content: center;
         align-items: center;
         margin-left: 120px;
         width: 50%;
         margin-top: 30px;
     }
+
     .program button {
         width: 50%;
         height: 70px;
@@ -182,5 +193,52 @@
         font-weight: bold;
     }
 
+    .speakers {
+        border: 4px solid red;
+        display: flex;
+        flex-direction: column;
+    }
+    .speakers .cards-container {
+        max-height: 25rem;
+        overflow: hidden;
+    }
 
+    .speakers img {
+        width: 100px;
+        height: 100px;
+
+    }
+
+    .speaker-title {
+        font-size: 20px;
+        font-weight: bold;
+        color: #292b32;
+        text-align: center;
+    }
+
+    .speaker {
+        font-size: 20px;
+        font-weight: bold;
+        color: #292b32;
+    }
+
+    .people-info {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border: 1px solid black;
+        margin-left: 15px;
+    }
+
+    .cards {
+        display: flex;
+        margin: 0 auto;
+        width: 100%;
+        margin-bottom: 20px;
+        border: 2px solid red;
+    }
+
+    .italic {
+        font-style: italic;
+    }
 }
