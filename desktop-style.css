@@ -17,7 +17,6 @@
 
   header {
     display: flex;
-    flex-direction: column;
     width: 100%;
     height: 150px;
     background: #3e3e3e;
@@ -73,7 +72,7 @@
     font-weight: bold;
   }
 
-  .navbar {
+  /*.navbar {
     border: 3px solid gold;
     width: 100%;
     height: 100px;
@@ -81,15 +80,15 @@
     flex-direction: column;
     margin: 0 auto;
     background-color: white;
-  }
+  }*/
 
   .menu {
     display: flex;
-    border: 4px solid red;
     height: 70px;
     width: auto;
     margin: 0 auto;
     background-color: white;
+    justify-content: center;
   }
 
   .menu-section {
@@ -126,7 +125,6 @@
   .text {
     display: flex;
     flex-direction: column;
-    border: 3px solid red;
     justify-content: center;
     align-self: center;
     margin-top: 250px;
@@ -181,7 +179,6 @@
     text-align: center;
     color: white;
     font-weight: bold;
-    border: 3px solid gold;
     width: 100%;
     height: 50px;
     margin-top: 20px;
@@ -199,7 +196,6 @@
 
   .atractions {
     justify-content: center;
-    border: 3px solid gold;
     display: flex;
     flex-direction: column;
     margin-right: 10px;
@@ -213,7 +209,6 @@
   }
 
   .row {
-    border: 3px solid white;
     display: flex;
     margin: 0 auto;
     width: 60%;
@@ -254,7 +249,6 @@
     text-align: center;
     color: black;
     font-weight: bold;
-    border: 3px solid gold;
     width: 100%;
     height: 50px;
     margin-top: 20px;
@@ -264,7 +258,6 @@
     display: flex;
     flex-direction: column;
     width: 50%;
-    border: 1px solid black;
     margin-left: 15px;
   }
 
@@ -273,7 +266,6 @@
     margin: 0 auto;
     width: 100%;
     margin-bottom: 20px;
-    border: 2px solid red;
   }
 
   .italic {
