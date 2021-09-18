@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .close {
+    color: white;
+    font-size: 3rem !important;
+    cursor: pointer;
+    user-select: none;
+    position: absolute;
+    top: 1rem;
+    right: 0;
+  }
+  
+  .menu {
+    position: relative;
+  }
+  
+  @media (max-width: 768px) {
+    .hide {
+      display: none;
+    }
+  
+    .menu-section {
+      position: fixed;
+      background: rgba(0, 0, 0, 0.6);
+      top: 100px;
+      left: -100%;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .menu-section a {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 5px;
+      margin-left: 10px;
+      text-decoration: none;
+      color: #fff;
+      font-size: 20px;
+    }
+  
+    .program a {
+      color: #fff;
+      text-align: center;
+      font-weight: bold;
+    }
+  
+    .menu-section a:hover {
+      font-weight: bold;
+    }
+  
+    .menu-section.open {
+      left: 0;
+    }
+  
+    #hamburger-menu {
+      padding: 0.5em 1em;
+      top: 1.5rem;
+      border: none;
+      cursor: pointer;
+      z-index: 1000;
+    }
+
+    .headline {
+      background-image: url(Images/luces.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 100%;
+      margin-top: 100px;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .text {
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+      margin-top: 120px;
+      width: 85%;
+      margin-left: 10%;
+    }
+    
+    .small-title {
+      color: #f14323;
+      margin-bottom: 10px;
+      font-size: 20px;
+      text-align: center;
+    }
+    
+    .big-title {
+      color: #ec5242;
+      margin-bottom: 30px;
+      font-size: 30px;
+      text-align: center;
+    }
+    
+    .paragraph {
+      border: 3px solid white;
+      background: gray;
+      padding: 5px;
+      color: white;
+      font-weight: bold;
+      margin-bottom: 15px;
+      width: 100%;
+      height: 25vh;
+      text-align: center;
+    }
+    
+    .last-info {
+      color: #4f4f4f;
+      font-weight: bold;
+      font-size: 15px;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    .small-title-logo {
+      color: black;
+      margin-bottom: 10px;
+      font-size: 20px;
+      text-align: center;
+    }
+
+    .logo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo-paragraph {
+      font-weight: bold;
+      margin-bottom: 15px;
+      width: 100%;
+      height: 25vh;
+      text-align: center;
+      font-size: 15px;
+    }
+
+    .logo-img {
+      background: gray;
+      width: 50%;
+      border: 1px solid black;
+      display: flex;
+      justify-content: center;  
+      align-self: center;
+    }
+
+    .logo-img img {
+      width: 250px;
+      height: 150px;
+    }
+}    
