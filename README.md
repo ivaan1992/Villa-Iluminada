@@ -15,7 +15,7 @@ I worked pretty harder.
 This was the template I choosed:
 This is the <a href=https://www.behance.net/gallery/29845175/CC-Global-Summit-2015>template</a> that I should use for making this project
 
-<b><h3>MOBILE VERSION</h3></b>
+<b><h3>MOBILE VERSION</h3></b> 📱
 
 To my capstone mobile version from this template I followed these steps: 
 
@@ -33,7 +33,7 @@ To my capstone mobile version from this template I followed these steps:
 
 ![screenshot](https://user-images.githubusercontent.com/73128809/133906912-c9ba57aa-fc59-4d17-a610-4a34a6462b8e.png)
 
-<b><h3>DESKTOP VERSION</h3></b>
+<b><h3>DESKTOP VERSION</h3></b> 💻 🖥️
 To create Desktop Version I followed these steps: 
 
 1-. Opened another CSS file.
