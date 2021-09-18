@@ -4,7 +4,7 @@
 
 This is my first professional capstone I created for Microverse.
 You can see it in this link
-https://ivaan1992.github.io/Portfolio/
+https://ivaan1992.github.io/Villa-Iluminada/
 
 This project consists in making my own web page.
 
@@ -12,8 +12,8 @@ For this project I thought about an event that ocurrs each December, in my state
 
 I worked pretty harder.  
 
-This was the template I choosed:
-This is the <a href=https://www.behance.net/gallery/29845175/CC-Global-Summit-2015>template</a> that I should use for making this project
+
+This is the <a href=https://www.behance.net/gallery/29845175/CC-Global-Summit-2015>template</a> that I should use for making this project. Original design idea by Cindy Shin in Behance.
 
 <b><h3>MOBILE VERSION</h3></b> 📱
 
