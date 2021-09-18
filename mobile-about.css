@@ -143,9 +143,9 @@
     }
 
     .logo-img {
-      background: gray;
-      width: 50%;
-      border: 1px solid black;
+      
+      width: 80%;
+      border: 1px solid rgb(211, 209, 209);
       display: flex;
       justify-content: center;  
       align-self: center;

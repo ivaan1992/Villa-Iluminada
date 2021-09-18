@@ -36,8 +36,8 @@ document.querySelector("#hamburger-menu").addEventListener("click", closeHamburg
 
 const link = document.querySelectorAll('.link');
 
-menuLinks.forEach(
-  (menuLink) => {
-    menuLink.addEventListener('click', toggleMenu);
+link.forEach(
+  (link) => {
+    link.addEventListener('click', toggleMenu);
   },
 );
