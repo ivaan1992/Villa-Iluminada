@@ -116,6 +116,7 @@
     color: #ec5242;
     margin-bottom: 30px;
     font-size: 30px;
+    font-family: cocogoose, sans-serif;
   }
 
   .paragraph {
@@ -180,7 +181,7 @@
   }
 
   .red-title {
-    width: 20%;
+    width: auto;
     display: flex;
     align-items: center;
     color: #ec5242;
