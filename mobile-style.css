@@ -172,12 +172,11 @@
 
   .atractions {
     display: flex;
-    flex-direction: row;
-    width: 90%;
-    background: rgba(255, 255, 255, 0.121);
-    margin: 0 auto;
-    border-bottom: 1px solid black;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.11);
+    text-align: center;
   }
 
   .red-title {
