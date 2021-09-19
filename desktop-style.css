@@ -6,7 +6,7 @@
 }
 
 @font-face {
-  font-family:cocogoose; 
+  font-family: cocogoose, sans-serif;
   src: url(Cocogoose-black.ttf);
   font-family: coco;
   src: url(Cocogoose.ttf);
@@ -28,7 +28,6 @@
     height: 150px;
     background: #3e3e3e;
     margin: 0 auto;
-
   }
 
   .content {
@@ -102,7 +101,7 @@
     margin: 0 auto;
     background-color: white;
     justify-content: center;
-    border-bottom: 1px solid #f7f7f7;;
+    border-bottom: 1px solid #f7f7f7;
     padding-right: 100px;
   }
 
@@ -127,6 +126,7 @@
   }
 
   .headline {
+    background: rgba(255, 255, 255, 0.351);
     background-image: url(Images/luces.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -135,7 +135,6 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    background: rgba(255, 255, 255, 0.350);
   }
 
   .text {
@@ -150,14 +149,14 @@
     color: #f14323;
     margin-bottom: 10px;
     font-size: 20px;
-    font-family: coco;
+    font-family: coco, sans-serif;
   }
 
   .big-title {
-    color: #F71604;
+    color: #f71604;
     margin-bottom: 30px;
     font-size: 50px;
-    font-family:cocogoose; 
+    font-family: cocogoose, sans-serif;
   }
 
   .paragraph {
@@ -175,7 +174,7 @@
     font-weight: bold;
     font-size: 30px;
     margin-bottom: 15px;
-    font-family:cocogoose; 
+    font-family: cocogoose, sans-serif;
   }
 
   .program {
@@ -217,7 +216,7 @@
   .atractions {
     width: auto;
     height: 320px;
-    justify-content: baseline;
+    justify-content: center;
     display: flex;
     flex-direction: column;
     border: 3px solid #fff;
@@ -237,19 +236,17 @@
     margin: 0 auto;
     width: 70%;
     height: auto;
-    justify-content: baseline;
+    justify-content: center;
     align-self: center;
   }
 
   .red-title {
     width: 100%;
     display: flex;
-    justify-content: center;
     color: #ec5242;
     font-weight: bold;
-    font-family:cocogoose;
-    padding-bottom: 20px; 
-
+    font-family: cocogoose, sans-serif;
+    padding-bottom: 20px;
   }
 
   .program-paragraph {
@@ -263,7 +260,7 @@
   .speakers {
     display: flex;
     width: 100%;
-    font-family:cocogoose; 
+    font-family: cocogoose, sans-serif;
     font-weight: bold;
     color: #6a6a6a;
   }
