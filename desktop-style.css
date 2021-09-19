@@ -4,6 +4,12 @@
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
 }
+@font-face {
+  font-family:cocogoose; 
+  src: url(Cocogoose-black.ttf);
+  font-family: coco;
+  src: url(Cocogoose.ttf);
+}
 
 .flex-center {
   align-items: center;
@@ -32,14 +38,12 @@
   }
 
   .black-menu {
-    width: 100%;
+    width: auto%;
     height: 50px;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    border: 5px solid red;
-    padding-left: 350px;
-
+    align-items: flex-end;
+    padding-left: 300px;
   }
 
   .black-menu li {
@@ -57,11 +61,11 @@
     display: flex;
     flex-direction: row;
     text-decoration: none;
-    margin-right: 50px;
+    margin-right: 40px;
   }
 
   .cc a {
-    text-align: center;
+    text-align: end;
     width: 100%;
     height: 50px;
     border: 5px solid #ec5242;
@@ -96,9 +100,9 @@
     width: 100%;
     margin: 0 auto;
     background-color: white;
-    justify-content: flex-end;
-    border-bottom: 1px solid gray;
-    padding-right: 455px;
+    justify-content: center;
+    border-bottom: 1px solid #f7f7f7;;
+    padding-right: 100px;
   }
 
   .menu-section {
@@ -125,7 +129,7 @@
     background-image: url(Images/luces.png);
     background-repeat: no-repeat;
     background-size: contain;
-    height: 100vh;
+    height: auto;
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -144,29 +148,32 @@
     color: #f14323;
     margin-bottom: 10px;
     font-size: 20px;
+    font-family: coco;
   }
 
   .big-title {
-    color: #ec5242;
+    color: #F71604;
     margin-bottom: 30px;
     font-size: 50px;
+    font-family:cocogoose; 
   }
 
   .paragraph {
     border: 3px solid white;
-    background: gray;
+    background: #f7f7f7;
     padding: 5px;
-    color: white;
-    font-weight: bold;
+    color: #6a6a6a;
     margin-bottom: 15px;
     width: 30%;
+    font-size: 15px;
   }
 
   .last-info {
     color: #4f4f4f;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 15px;
+    font-family:cocogoose; 
   }
 
   .program {
@@ -183,6 +190,7 @@
     background-color: #131313;
     background-size: 20px 20px;
     width: 100%;
+    height: auto;
   }
 
   .main {
@@ -205,17 +213,17 @@
   }
 
   .atractions {
-    width: 50%;
-    height: auto;
-    justify-content: center;
+    width: auto;
+    height: 320px;
+    justify-content: baseline;
     display: flex;
     flex-direction: column;
-    margin-right: 30px;
     border: 3px solid #fff;
+    margin: 0 auto;
   }
 
   .atractions img {
-    width: 100px;
+    width: auto;
     height: 100px;
     justify-content: center;
     align-self: center;
@@ -224,9 +232,9 @@
   .row {
     display: flex;
     margin: 0 auto;
-    width: 60%;
+    width: 70%;
     height: auto;
-    justify-content: center;
+    justify-content: baseline;
     align-self: center;
   }
 
@@ -236,7 +244,9 @@
     justify-content: center;
     color: #ec5242;
     font-weight: bold;
-    padding: 10px;
+    font-family:cocogoose;
+    padding-bottom: 20px; 
+
   }
 
   .program-paragraph {
@@ -245,12 +255,15 @@
     width: 100%;
     font-size: 15px;
     color: #fff;
-    font-weight: bold;
+    font-family:coco; 
   }
 
   .speakers {
     display: flex;
     width: 100%;
+    font-family:cocogoose; 
+    font-weight: bold;
+    color: #6a6a6a;
   }
 
   .speakers img {
@@ -279,6 +292,7 @@
     margin: 0 auto;
     width: 100%;
     margin-bottom: 20px;
+    text-align: justify;
   }
 
   .cards-container {
@@ -338,5 +352,10 @@
   .footer {
     display: flex;
     justify-content: center;
+  }
+
+  .info {
+    color:black;
+    font-size: 12px;
   }
 }
