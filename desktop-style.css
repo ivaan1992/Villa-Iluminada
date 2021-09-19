@@ -70,7 +70,6 @@
     height: 50px;
     border: 5px solid #ec5242;
     color: #ec5242;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -188,7 +187,6 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    
     background:
       linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
       linear-gradient(207deg, #151515 5px, transparent 5px) 10px,
@@ -198,7 +196,6 @@
       linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
     background-color: #131313;
     background-size: 20px 20px;
-    
     margin: 0 auto;
     padding: 1rem;
     width: 100%;
@@ -228,7 +225,6 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-
     background: rgba(255, 255, 255, 0.11);
     text-align: center;
   }
@@ -237,7 +233,6 @@
     width: 50px;
     height: 50px;
     margin-top: 1rem;
-
     justify-content: center;
     align-self: center;
   }
@@ -246,7 +241,6 @@
     margin: auto auto;
     width: 60%;
     height: 13rem;
-
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 0.2rem;
