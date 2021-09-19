@@ -46,8 +46,7 @@ To create Desktop Version I followed these steps:
 
 <b>This is the Desktop Version</b>
 
-![screenshot](https://user-images.githubusercontent.com/73128809/133906960-3cadad1d-6d2f-4949-ba6c-8a79318f5032.png)
-
+![screenshot](https://user-images.githubusercontent.com/73128809/133929107-a7fa31b9-57f7-4e1e-855c-8f5c15e7fe2a.png)
 
 
 ## Built With ⚒️💻
