@@ -140,13 +140,14 @@
   .paragraph {
     border: 3px solid white;
     background: #f7f7f7;
-    padding: 5px;
-    color: #6b6b6b;
+    padding: 20px 40px 20px 40px;
+   
+    color: #292929;
     margin-bottom: 15px;
     width: 60%;
-    height: auto;
     text-align: center;
-    font-size: 12.5px;
+    line-height: 1.7em;
+    font-size: 12px;
   }
 
   .last-info {
@@ -186,6 +187,7 @@
     text-align: center;
     font-size: 12px;
     color: #6b6b6b;
+    line-height: 1.7em;
   }
 
   .logo-img {
@@ -210,24 +212,19 @@
   }
 
   .images {
-    width: auto;
+    
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
   }
 
   .images img {
     margin-bottom: 20px;
     width: 20%;
     height: auto;
-    margin-right: 50px;
-  }
+   
+    margin: 70px 15px 100px 15px;
 
-  .red-picture {
-    width: 20px;
-    height: 200px;
-    padding: 18px;
   }
 
   .article-paragraph {
@@ -250,5 +247,6 @@
   .rights {
     margin-left: 30px;
     margin-bottom: 10px;
+    line-height: 1.5em;
   }
 }
