@@ -8,7 +8,7 @@
 @font-face {
   font-family: cocogoose, sans-serif;
   src: url(Cocogoose-black.ttf);
-  font-family: coco;
+  font-family: coco, sans-serif;
   src: url(Cocogoose.ttf);
 }
 
