@@ -166,7 +166,6 @@
     justify-content: center;
     align-self: center;
     margin-top: 10px;
-   
   }
 
   .logo-img img {
@@ -212,7 +211,6 @@
   }
 
   .logos {
-    padding: auto;
     width: auto;
     flex-wrap: wrap;
     display: flex;
