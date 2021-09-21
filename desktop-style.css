@@ -173,7 +173,8 @@
     width: 60%;
     height: auto;
     text-align: justify;
-    font-size: 14px;
+    font-size: 16px;
+    line-height: 1.8em;
   }
 
   .last-info {
